@@ -8,6 +8,7 @@ const monster3 = new Monster("woman", "in red",
     "https://images.pexels.com/photos/247122/pexels-photo-247122.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500", { x: "500px", y: "100px" })
 
 const monsters = [];
+//
 monsters.push(monster1, monster2, monster3)
 
 for (let index = 0; index < monsters.length; index++) {
