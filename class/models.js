@@ -37,7 +37,15 @@ class Monster {
         monsterUI.style.position = "absolute"
         monsterUI.style.left = this.x
         monsterUI.style.top = this.y
+        const click = document.createElement("button")
+       
+        click.innerText = "move"
+        monsterUI.append(click)
         return monsterUI;
+    }
+
+    move() {
+        console.log(this)
     }
 
 }
