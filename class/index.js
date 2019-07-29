@@ -6,10 +6,13 @@ const monster2 = new Monster("clown", "funny",
     "https://cdn.ebaumsworld.com/mediaFiles/picture/604025/85925971.jpg", { x: "300px", y: "200px" })
 const monster3 = new Monster("woman", "in red",
     "https://images.pexels.com/photos/247122/pexels-photo-247122.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500", { x: "500px", y: "100px" })
+const monster4 = new Monster("monster4", "monster4",
+    "https://images.pexels.com/photos/247122/pexels-photo-247122.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500", { x: "500px", y: "100px" })
 
 const monsters = [];
-//
-monsters.push(monster1, monster2, monster3)
+
+
+monsters.push(monster1, monster2, monster3, monster4)
 
 for (let index = 0; index < monsters.length; index++) {
 
